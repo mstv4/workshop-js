@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.users {
+  width: 40%;
+  padding: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 18px;
+}
+.users ul {
+  list-style-type: square;
+}
+.users li {
+  margin-bottom: 10px;
+  justify-items: end;
+}
+.users h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 32px;
+}
+.users a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.users a:hover {
+  text-decoration: none;
+}
+.users p {
+  text-align: center;
+}
+
+.posts {
+  width: 40%;
+  background-color: #008080;
+  padding: 10px;
+  text-align: justify;
+  border: 0px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.posts h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 32px;
+}
+.posts #user-posts {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.posts #user-posts .post-title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+.posts #user-posts .post-title a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.posts #user-posts .post-title a:hover {
+  text-decoration: none;
+}
+.posts #user-posts .post-body {
+  margin-bottom: 10px;
+}
+.posts #user-posts button {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 25px;
+  border: 0px;
+}
+.posts #user-posts button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.posts .post {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#post-comments {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#post-comments h2 {
+  margin-bottom: 25px;
+}
+#post-comments .comment-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+#post-comments .comment-body {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#post-comments p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
